@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-08T14:52:14 IST" name="Suite" finished-at="2025-07-08T14:52:55 IST" duration-ms="41044">
+    <groups>
+    </groups>
+    <test started-at="2025-07-08T14:52:14 IST" name="Test Chrome" finished-at="2025-07-08T14:52:36 IST" duration-ms="21561">
+      <class name="com.testing.scenario.TestNGMain">
+        <test-method is-config="true" signature="driverInstantiation(java.lang.String)[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:14 IST" name="driverInstantiation" finished-at="2025-07-08T14:52:28 IST" duration-ms="13082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstantiation -->
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:28 IST" name="startReporter" finished-at="2025-07-08T14:52:28 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method signature="navigatingToHomePage()[pri:1, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:28 IST" name="navigatingToHomePage" finished-at="2025-07-08T14:52:31 IST" duration-ms="3402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToHomePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:31 IST" name="getResult" finished-at="2025-07-08T14:52:31 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToHomePage status=SUCCESS method=TestNGMain.navigatingToHomePage()[pri:1, instance:com.testing.scenario.TestNGMain@4b2bac3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:31 IST" name="screeShot" finished-at="2025-07-08T14:52:32 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method signature="projectList()[pri:2, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:32 IST" name="projectList" finished-at="2025-07-08T14:52:32 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectList -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:32 IST" name="screeShot" finished-at="2025-07-08T14:52:32 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:32 IST" name="getResult" finished-at="2025-07-08T14:52:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=projectList status=SUCCESS method=TestNGMain.projectList()[pri:2, instance:com.testing.scenario.TestNGMain@4b2bac3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="navigatingToEnquiry()[pri:3, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:32 IST" name="navigatingToEnquiry" finished-at="2025-07-08T14:52:32 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToEnquiry -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:32 IST" name="getResult" finished-at="2025-07-08T14:52:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToEnquiry status=SUCCESS method=TestNGMain.navigatingToEnquiry()[pri:3, instance:com.testing.scenario.TestNGMain@4b2bac3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:32 IST" name="screeShot" finished-at="2025-07-08T14:52:32 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method is-config="true" signature="dataEmailWrite()[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:32 IST" name="dataEmailWrite" finished-at="2025-07-08T14:52:33 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataEmailWrite -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:33 IST" name="tearDown" finished-at="2025-07-08T14:52:35 IST" duration-ms="2586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="writeDataIntoExcel()[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:35 IST" name="writeDataIntoExcel" finished-at="2025-07-08T14:52:36 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDataIntoExcel -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.testing.scenario.TestNGMain@4b2bac3f]" started-at="2025-07-08T14:52:36 IST" name="flushReport" finished-at="2025-07-08T14:52:36 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.testing.scenario.TestNGMain -->
+    </test> <!-- Test Chrome -->
+    <test started-at="2025-07-08T14:52:36 IST" name="Test Edge" finished-at="2025-07-08T14:52:55 IST" duration-ms="19455">
+      <class name="com.testing.scenario.TestNGMain">
+        <test-method is-config="true" signature="driverInstantiation(java.lang.String)[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:36 IST" name="driverInstantiation" finished-at="2025-07-08T14:52:48 IST" duration-ms="12212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstantiation -->
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:48 IST" name="startReporter" finished-at="2025-07-08T14:52:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method signature="navigatingToHomePage()[pri:1, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:48 IST" name="navigatingToHomePage" finished-at="2025-07-08T14:52:51 IST" duration-ms="3252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToHomePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:51 IST" name="getResult" finished-at="2025-07-08T14:52:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToHomePage status=SUCCESS method=TestNGMain.navigatingToHomePage()[pri:1, instance:com.testing.scenario.TestNGMain@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:51 IST" name="screeShot" finished-at="2025-07-08T14:52:52 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method signature="projectList()[pri:2, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:52 IST" name="projectList" finished-at="2025-07-08T14:52:52 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectList -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:52 IST" name="getResult" finished-at="2025-07-08T14:52:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=projectList status=SUCCESS method=TestNGMain.projectList()[pri:2, instance:com.testing.scenario.TestNGMain@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:52 IST" name="screeShot" finished-at="2025-07-08T14:52:52 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method signature="navigatingToEnquiry()[pri:3, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:52 IST" name="navigatingToEnquiry" finished-at="2025-07-08T14:52:52 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToEnquiry -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:52 IST" name="getResult" finished-at="2025-07-08T14:52:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToEnquiry status=SUCCESS method=TestNGMain.navigatingToEnquiry()[pri:3, instance:com.testing.scenario.TestNGMain@7d8704ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:52 IST" name="screeShot" finished-at="2025-07-08T14:52:52 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method is-config="true" signature="dataEmailWrite()[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:52 IST" name="dataEmailWrite" finished-at="2025-07-08T14:52:53 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataEmailWrite -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:53 IST" name="tearDown" finished-at="2025-07-08T14:52:55 IST" duration-ms="2646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="writeDataIntoExcel()[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:55 IST" name="writeDataIntoExcel" finished-at="2025-07-08T14:52:55 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDataIntoExcel -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.testing.scenario.TestNGMain@7d8704ef]" started-at="2025-07-08T14:52:55 IST" name="flushReport" finished-at="2025-07-08T14:52:55 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.testing.scenario.TestNGMain -->
+    </test> <!-- Test Edge -->
+  </suite> <!-- Suite -->
+</testng-results>
